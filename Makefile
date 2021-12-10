@@ -62,6 +62,7 @@ build: .build-post
 
 # clean
 clean: .clean-post
+	rm -rf build/ dist/ nbproject/{Makefile-*,Package-*,private/}
 
 .clean-pre:
 # Add your pre 'clean' code here...
